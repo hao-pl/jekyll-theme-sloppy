@@ -1,0 +1,40 @@
+.extensions {
+    margin: 0 auto;
+    display: block;
+
+}
+
+
+.extensions--video{
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 1px rgb(28, 29, 77);
+  & > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  }
+  
+.extensions--video {
+  padding-top: percentage(315 / 560);
+  box-shadow: 0 2px 4px 1px rgb(28, 29, 77);
+  border-radius: 10px;
+}
+
+.extensions--audio{
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+
+  .active{
+    border-radius: 10px;
+  }
+}

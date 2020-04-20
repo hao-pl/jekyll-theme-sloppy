@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  {% include layout_lib/head.html %}
+
+  <body>
+
+    {% include layout_lib/header.html %}
+
+        {{ content }}
+
+    {% include layout_lib/footer.html %}
+    {% include layout_lib/backToTop.html %}
+    <script>
+      {%- include javascript/main.js -%}
+    </script>
+    <script>
+      {%- include javascript/smooth-scroll.min.js -%}
+    </script>
+
+    <script type="text/javascript">
+      smoothScroll.init({
+        speed: 500, // Integer. How fast to complete the scroll in milliseconds
+        easing: 'easeInOutCubic', // Easing pattern to use
+        offset: 20, // Integer. How far to offset the scrolling anchor location in pixels
+      });
+    </script>
+    <!-- <script src="{{ " /js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
+  </body>
+
+</html>

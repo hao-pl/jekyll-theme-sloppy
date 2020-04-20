@@ -1,0 +1,240 @@
+
+/*
+    Notice && Label
+*/
+  
+.success {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 5px;
+    color: #ffffff;
+    background-color: #01b318;
+    box-shadow: 0 2px 2px 1px rgb(42, 212, 0);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin: 8px 5px;
+}
+
+.info {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 5px;
+    color: #ffffff;
+    background-color: #0066ff;
+    box-shadow: 0 2px 2px 1px rgb(0, 140, 255);
+    border-radius: 5px;
+    margin: 8px 5px;
+}
+
+.warning {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 5px;
+    color: #ffffff;
+    background-color: #ce8d00;
+    box-shadow: 0 2px 2px 1px rgb(199, 129, 0);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin: 8px 5px;
+}
+
+.error {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 5px;
+    color: #ffffff;
+    background-color: #ff0000;
+    box-shadow: 0 2px 2px 1px rgb(255, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin: 8px 5px;
+}
+
+/****************************************
+
+图片显示：
+边框
+圆角
+圆形
+阴影
+大小：xs sm md lg xl
+*/
+.img-shadow {
+    box-shadow: 0 8px 16px rgba(0,0,0, .23), 0 2px 2px rgba(0,0,0, .08), 0 2px 2px rgba(0,0,0, .02);
+}
+.img-border{
+    border: 2px solid #000000;
+    border-radius: 2px;
+}
+.img-rounded  {
+    border-radius: 5px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+  
+img {
+    max-width: 95%;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: block;
+
+    height: auto;
+    border-radius: 10px;
+}
+
+.img-xl {
+    width: 40rem;
+}
+.img-lg {
+    width: 30rem;
+}
+.img-md {
+    width: 20rem;
+}
+.img-sm {
+    width: 8rem;
+}
+.img-xs {
+    width: 1.5rem;
+    
+}
+
+.img-float-r {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: block;
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+.img-float-l {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: block;
+    float: left;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+/* image align right */
+
+.img-right {
+    display: block;
+    margin-left: auto;
+    margin-right: 1px;
+}
+
+/* image align center */
+
+.img-center {
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-left {
+    display: block;
+    margin-left: 1px;
+    margin-right: auto;
+}
+
+
+.img-default {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+/* file page content container */  
+.img-fixed-50 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	height: auto;
+    border-radius: 10px;
+
+}
+
+.img-fixed-70 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+	height: auto;
+    border-radius: 10px;
+}
+
+/* file page content container */  
+.btn,
+.btn-g,
+.btn-r,
+.btn-y,
+.btn-b{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 8px;
+    font-size: 1.8;
+    box-shadow: 0 2px 4px 1px rgb(0, 0, 0);
+    margin-bottom: 5px;
+}
+
+.btn{
+    background: #ffffff;
+    &:hover{
+        background-color: #293742 !important;
+        color: #ffffff !important;
+    }
+    display: inline-block;
+}
+
+.btn-g{
+    background: #00ff95;
+    &:hover{
+        background-color: #293742 !important;
+        color: #ffffff !important;
+    }
+    display: inline-block;
+}
+
+.btn-r{
+    background: #ff0000;
+    &:hover{
+        background-color: #293742 !important;
+        color: #ffffff !important;
+    }
+    display: inline-block;
+}
+
+
+.btn-y{
+    background: #d9ff00;
+    &:hover{
+        background-color: #293742 !important;
+        color: #ffffff !important;
+    }
+    display: inline-block;
+}
+
+.btn-b{
+
+    background: #00a2ff;
+
+    &:hover{
+        background-color: #293742 !important;
+        color: #ffffff !important;
+    }
+    display: inline-block;
+}

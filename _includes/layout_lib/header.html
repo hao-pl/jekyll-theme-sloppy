@@ -1,0 +1,26 @@
+<header id="top">
+    <div class="wrapper">
+        <a href="{{ site.baseurl }}/" class="site-logo"><img src="{{ site.logo }}" /></a>
+        <a href="{{ site.baseurl }}/" class="brand" type="font-size:30px font-weight:bold">{{ site.title }}</a>
+        <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>
+        <nav id="headerNav">
+            <ul>
+                {% assign links = site.data.navigation %}
+                {% for link in links %}
+                    {% assign class = nil %}
+                    {% if page.url contains link.url %}
+                        {% assign class = 'active' %}
+                    {% endif %}
+                    <li class="{{ class }}">
+                        <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">
+                            <i class="fa fa-{{link.icon}}"></i>
+                            {{ link.title }}
+                        </a>
+                    </li>
+                {% endfor %} 
+           
+            </ul>
+ 
+        </nav>
+    </div>
+</header>

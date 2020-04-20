@@ -1,0 +1,75 @@
+I"�<ul id="markdown-toc">
+  <li><a href="#what-is-fpga" id="markdown-toc-what-is-fpga">What is FPGA</a></li>
+  <li><a href="#fpga行业分析" id="markdown-toc-fpga行业分析">FPGA行业分析</a></li>
+  <li><a href="#build-development--environment" id="markdown-toc-build-development--environment">Build development  environment</a>    <ul>
+      <li><a href="#ise各版本下载" id="markdown-toc-ise各版本下载">ISE各版本下载</a></li>
+      <li><a href="#入门操作" id="markdown-toc-入门操作">入门操作</a></li>
+    </ul>
+  </li>
+</ul>
+<h2 id="what-is-fpga">What is FPGA</h2>
+
+<p>现场域可编程逻辑闸阵列（Field Programmable Gate Array，缩写为FPGA），它是在PAL、GAL、CPLD等可编程逻辑器件的基础上进一步发展的产物。它是作为专用集成电路领域中的一种半定制电路而出现的，既解决了全定制电路的不足，又克服了原有可编程逻辑器件门电路数有限的缺点。</p>
+
+<p>当前以硬件描述语言（Verilog或VHDL）描述的逻辑电路，可以利用逻辑合成和布局、布线工具软件，快速地刻录至FPGA上进行测试，这一过程是现代集成电路设计验证的技术主流。这些可编程逻辑组件可以被用来实现一些基本的逻辑门数字电路（比如与门、或门、异或门、非门）或者更复杂一些的组合逻辑功能，比如译码器等。在大多数的FPGA里面，这些可编辑的组件里也包含记忆组件，例如触发器（Flip－flop）或者其他更加完整的记忆块，从而构成时序逻辑电路。</p>
+
+<p>系统设计师可以根据需要，通过可编辑的连接，把FPGA内部的逻辑块连接起来。这就好像一个电路试验板被放在了一个芯片里。一个出厂后的成品FPGA的逻辑块和连接可以按照设计者的需要而改变，所以FPGA可以完成所需要的逻辑功能。</p>
+
+<p>FPGA一般来说比专用集成电路（ASIC）的速度要慢，无法完成更复杂的设计，并且会消耗更多的电能。但是，FPGA具有很多优点，比如可以快速成品，而且其内部逻辑可以被设计者反复修改，从而改正程序中的错误，此外，使用FPGA进行调试的成本较低。厂商也可能会提供便宜、但是编辑能力有限的FPGA产品。因为这些芯片有的可编辑能力较差，所以这些设计的开发是在普通的FPGA上完成的，然后将设计转移到一个类似于专用集成电路的芯片上。在一些技术更新比较快的行业，FPGA几乎是电子系统中的必要部件，因为在大批量供货前，必须迅速抢占市场，这时FPGA方便灵活的优势就显得很重要。</p>
+
+<h2 id="fpga行业分析">FPGA行业分析</h2>
+
+<ul>
+  <li>FPGA的就业范围窄：在军工、BAT、华为等或者一线城市岗位略多，二线城市鲜有岗位。</li>
+  <li>FPGA灵活，属于数字电路设计范畴，硬件电路设计，运用于通信、IC验证等领域</li>
+  <li>当前部分高端FPGA包含DSP、ARM内核，Intel收购Altera公司</li>
+</ul>
+
+<h2 id="build-development--environment">Build development  environment</h2>
+
+<h3 id="ise各版本下载">ISE各版本下载</h3>
+
+<blockquote>
+  <p>vivado_sdk_win 2015.4版本  链接：http://pan.baidu.com/s/1qXXeK80 密码：hdza</p>
+
+  <p>vivado_sdk_win 2017.1版本  链接：http://pan.baidu.com/s/1bp6HeZt 密码：0tc4</p>
+
+  <p>vivado_sdk_win 2016.2版本  链接：http://pan.baidu.com/s/1qYTXk8s 密码：rz4i</p>
+
+  <p>xilinx ise14.7			 链接：http://pan.baidu.com/s/1hr4oQ3M 密码：fvkn</p>
+
+  <p>Xilinx_2015_SDSOC 		 链接：http://pan.baidu.com/s/1jIMbWRs 密码：waex</p>
+
+</blockquote>
+
+<p>暂时采用12.4版本的，虽然我想安装14.7的，但我没有足够的流量下载足足6G的安装文件</p>
+
+<h3 id="入门操作">入门操作</h3>
+
+<ol>
+  <li>
+    <p>安装及破解软件</p>
+
+    <p>遇到问题：闪退</p>
+
+    <p>解决办法：</p>
+
+    <ol>
+      <li>
+        <p>寻找安装Xilinx_ISE的安装目录下的文件夹：\ISE_DS\ISE\lib\nt64
+将libPortability.dll重名为libPortability.dll.orig
+将 libPortabilityNOSH.dll 复制一份，然后将这个复制重命名为libPortability.dll</p>
+      </li>
+      <li>
+        <p>寻找安装Xilinx_ISE的安装目录下的文件夹：\ISE_DS\common\lib\nt64
+将libPortability.dll重名为libPortability.dll.orig
+然后将已经复制好的libPortabilityNOSH.dll文件复制到该文件夹下，并重命名为libPortability.dll</p>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>由于缺少电源线，暂时停止</p>
+  </li>
+</ol>
+
+:ET

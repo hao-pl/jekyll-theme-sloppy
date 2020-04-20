@@ -1,0 +1,44 @@
+
+
+collections:
+
+- title: 工具
+  icon: wrench
+  sub-page:
+    - page: Mathpix
+      icon: calculator
+      url: /collect/tool/mathpix
+    - page: Git
+      icon: git
+      url: /collect/tool/git
+    - page: vim
+      icon: vimeo
+      url: /collect/tool/vim
+
+- title: 网站
+  icon: internet-explorer
+  sub-page:
+    - page: Font-awsome
+      icon: font-awesome
+      url: http://www.fontawesome.com.cn/icons-ui/
+
+- title: 资源
+  icon: tripadvisor
+  sub-page:
+    - page: 视频
+      icon: video-camera
+      url: /collect/
+    - page: 文档
+      icon: file-text-o
+      url: /collect/
+    - page: 图库
+      icon: picture-o
+      url: /collect/
+
+
+- title: 下载
+  icon: arrow-down
+  sub-page:
+    - page: 10个与睡觉有关的习惯
+      icon: video-camera
+      url: /collect/

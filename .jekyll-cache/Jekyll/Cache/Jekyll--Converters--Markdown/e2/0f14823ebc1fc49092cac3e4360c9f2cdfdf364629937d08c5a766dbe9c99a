@@ -1,0 +1,129 @@
+I"�'<ul id="markdown-toc">
+  <li><a href="#什么是大数据" id="markdown-toc-什么是大数据">什么是大数据</a>    <ul>
+      <li><a href="#概述" id="markdown-toc-概述">概述</a></li>
+      <li><a href="#数据科学" id="markdown-toc-数据科学">数据科学</a></li>
+    </ul>
+  </li>
+  <li><a href="#大数据工作" id="markdown-toc-大数据工作">大数据工作</a>    <ul>
+      <li><a href="#方向" id="markdown-toc-方向">方向</a></li>
+      <li><a href="#需要的技能" id="markdown-toc-需要的技能">需要的技能</a></li>
+      <li><a href="#入门工作" id="markdown-toc-入门工作">入门工作</a>        <ul>
+          <li><a href="#stage-one" id="markdown-toc-stage-one">Stage One</a></li>
+          <li><a href="#stage-two" id="markdown-toc-stage-two">Stage Two</a></li>
+          <li><a href="#stage-three" id="markdown-toc-stage-three">Stage Three</a></li>
+        </ul>
+      </li>
+      <li><a href="#书籍推荐" id="markdown-toc-书籍推荐">书籍推荐</a></li>
+    </ul>
+  </li>
+</ul>
+<h2 id="什么是大数据">什么是大数据</h2>
+
+<p><img src="/assets/post-img/big-data-1.png" alt="Big Data" class="img-default" /></p>
+
+<p>大数据（Big data），又称为巨量资料，指的是在传统数据处理应用软件不足以处理的大或复杂的数据集的术语。大数据也可以定义为来自各种来源的大量非结构化或结构化数据。从学术角度而言，大数据的出现促成广泛主题的新颖研究。这也导致各种大数据统计方法的发展。大数据并没有统计学的抽样方法；它只是观察和追踪发生的事情。因此，大数据通常包含的数据大小超出传统软件在可接受的时间内处理的能力。由于近期的技术进步，发布新数据的便捷性以及全球大多数政府对高透明度的要求，大数据分析在现代研究中越来越突出。</p>
+
+<h3 id="概述">概述</h3>
+
+<p><img src="/assets/post-img/big-data-0.png" alt="Big Data" class="img-default" /></p>
+
+<p>截至2012年，技术上可在合理时间内分析处理的数据集大小单位为艾字节（EB）。在许多领域，由于数据集过度庞大，科学家经常在分析处理上遭遇限制和阻碍；这些领域包括气象学、基因组学、神经网络体学、复杂的物理模拟，以及生物和环境研究。这样的限制也对网络搜索、金融与经济信息学造成影响。数据集大小增长的部分原因来自于信息持续从各种来源被广泛收集，这些来源包括搭载感测设备的移动设备、高空感测科技（遥感、软件记录、相机、麦克风、无线射频识别（RFID）和无线感测网络。自1980年代起，现代科技可存储数据的容量每40个月即增加一倍；截至2012年，全世界每天产生2.5艾字节（2.5×1018字节）的数据。</p>
+
+<p>大数据几乎无法使用大多数的数据库管理系统处理，而必须使用“在数十、数百甚至数千台服务器上同时平行运行的软件”（电脑集群是其中一种常用方式）。大数据的定义取决于持有数据组的机构之能力，以及其平常用来处理分析数据的软件之能力。“对某些组织来说，第一次面对数百GB的数据集可能让他们需要重新思考数据管理的选项。对于其他组织来说，数据集可能需要达到数十或数百<a href="https://zh.wikipedia.org/wiki/太字节">TB</a>才会对他们造成困扰。”</p>
+
+<p>随着大数据被越来越多的提及，有些人惊呼大数据时代已经到来了，2012年《纽约时报g/wiki/纽约时报》的一篇专栏中写到，“大数据”时代已经降临，在商业、经济及其他领域中，决策将日益基于数据和分析而作出，而并非基于经验和直觉。但是并不是所有人都对大数据感兴趣，有些人甚至认为这是商学院或咨询公司用来哗众取宠的[时髦术语(buzzword)，看起来很新颖，但只是把传统重新包装，之前在学术研究或者政策决策中也有海量数据的支撑，大数据并不是一件新兴事物。</p>
+
+<p>大数据时代的来临带来无数的机遇，但是与此同时个人或机构的隐私权也极有可能受到冲击，大数据包含各种个人信息数据，现有的隐私保护法律或政策无力解决这些新出现的问题。有人提出，大数据时代，个人是否拥有“被遗忘权”，被遗忘权即是否有权利要求数据商不保留自己的某些信息，大数据时代信息为某些互联网巨头所控制，但是数据商收集任何数据未必都获得用户的许可，其对数据的控制权不具有合法性。2014年5月13日欧盟法院就“被遗忘权”（right to be forgotten）一案作出裁定，判决谷歌应根据用户请求删除不完整的、无关紧要的、不相关的数据以保证数据不出现在搜索结果中。这说明在大数据时代，加强对用户个人权利的尊重才是时势所趋的潮流。</p>
+
+<h3 id="数据科学">数据科学</h3>
+
+<p><img src="/assets/post-img/big-data-2.png" alt="Big Data" class="img-default" /></p>
+
+<p>数据科学并没有一个独立学科体系，统计学、机器学习、数据挖掘、数据库、分布式计算、云计算、信息可视化等技术或方法来处理数据。其主要包含</p>
+
+<ol>
+  <li>
+    <p>Data pre-processing</p>
+
+    <p>原始数据要金国一连串收集、提取、清洗、整理等等预处理工作，才可以形成高质量的数据</p>
+  </li>
+  <li>
+    <p>Data interpretation</p>
+
+    <p>寻求数据的特点和规律</p>
+  </li>
+  <li>
+    <p>Data modeling and analysis</p>
+
+    <p>数据模型的建立和数据信息的提取</p>
+  </li>
+</ol>
+
+<p><img src="/assets/post-img/big-data-3.jpg" alt="Big Data" class="img-default" /></p>
+
+<h2 id="大数据工作">大数据工作</h2>
+
+<h3 id="方向">方向</h3>
+
+<p>现在，大数据方向的大致分为以下几类：:hammer_and_pick:</p>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />大数据工程师（平台开发）</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />大数据运维（平台维护）</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />数据分析师（算法、机器学习等）</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />大数据科学家</li>
+</ul>
+
+<h3 id="需要的技能">需要的技能</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Java</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Linux Shell</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Python</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />主流大数据框架：HDFS、HBase、Hive、MapReduce、Storm、Spark</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Hadoop周边框架：Sqoop、Flume、Spider、ElasticSearch、Solr</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />sql的基本使用</li>
+</ul>
+
+<h3 id="入门工作">入门工作</h3>
+
+<h4 id="stage-one">Stage One</h4>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />JavaSe</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Linux 基本操作（已经非常熟练）</li>
+</ul>
+
+<h4 id="stage-two">Stage Two</h4>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />掌握Hadoop各种模式下的环境搭建</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />学习HDFS设计原理和读写原理，熟练使用HDFS</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />学习Hadoop的Mapreduce的核心思想，尤其是shuffle！</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />熟悉周边框架 Zookeeper，Hbase，Hive，Sqoop，Flume的搭建和使用
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />要知道框架的基本概念，如何搭建，如何使用</li>
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" /><strong>重点学习</strong>Hbase，Hive，安装，使用，熟悉！</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />sql基础入门，增删改查语句使用</li>
+</ul>
+
+<h4 id="stage-three">Stage Three</h4>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />消息队列kafka的基本概念，使用</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />实时处理系统：storm和spark Streaming</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Spark平台</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />ES、Solr等</li>
+</ul>
+
+<h3 id="书籍推荐">书籍推荐</h3>
+
+<ul>
+  <li>Linux学习《鸟叔的私房菜》</li>
+  <li>HBase《HBase权威指南》</li>
+  <li>Hive《Hive开发指南》</li>
+  <li>Scala《快学Scala》</li>
+</ul>
+:ET

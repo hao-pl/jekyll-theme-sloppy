@@ -1,0 +1,221 @@
+header {
+    background: rgba(243, 243, 243, 0);
+    height: 52px;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;
+    a {
+        font-family:"Times New Roman",Times,serif;
+        color: #000000;
+        font-weight: bold;
+        font-size: 1em;
+        -webkit-transition: 0.2s ease;
+        transition: 0.2s ease;
+        &:hover {
+            color: rgb(0, 47, 255);
+        }
+    }
+    .wrapper {
+        width: 1140px;
+        margin: 0 auto;
+        line-height: 52px;
+        
+        .site-logo {
+            float: left;
+            width: 30px;
+            height: 30px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            img {
+            border-radius: 5px;
+            }
+        }
+
+        .brand {
+            font-size: 22px;
+            font-weight: normal;
+        }
+
+        .menu{
+            display: none;
+        }
+        
+        nav {
+            float: right;
+            ul {
+                font-size: 0;
+                margin: 0;
+                padding: 0;
+                li {
+                    list-style: none;
+                    font-size: 14px;
+                    display: inline-block;
+                    -webkit-transition: 0.2s ease;
+                    transition: 0.2s ease;
+                    a {
+                        display: inline-block;
+
+                        padding-left: 5px;
+                        padding-right: 10px;
+                        height: 52px;
+                        margin-right: 5px;
+                        &:hover {
+                            background-color: rgba(235, 235, 235, 0.9);
+                            border-radius: 5px;
+                            color: rgb(0, 131, 253);
+                        }
+                        &:actived{
+                            color: rgb(0, 47, 255);
+                            border: 1px solid #000000;
+                            border-radius: 5px;
+                            box-shadow: 0 1px 1px -1px rgba(255,255,255,0.93);
+                        }
+                        i {
+                            margin-right: 5px;
+                        }
+                    }
+                    >.active {
+                        color: rgb(0, 47, 255);
+                        border: 1px solid #000000;
+                        border-radius: 5px;
+                        box-shadow: 0 1px 1px -1px rgba(255,255,255,0.93);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width: 770px) {
+    header {
+        height: 50px;
+        .wrapper {
+            width: 90%;
+            line-height: 50px;
+                    
+            .site-logo{
+                float: left;
+                width: 28px;
+                height: 28px;
+                margin-left: 12px;
+                margin-right: 12px;
+                margin-top: 8px;
+                margin-bottom: 8px;
+            }
+            
+            .brand {
+                font-size: 19px;
+            }
+  
+            .menu{
+                display: none;
+            }
+            nav {
+                ul {
+                    li {
+                        a {
+                            padding: 0 8px;
+                            height: 50px;
+                            i {
+                                margin-right: 4px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 770px) {
+    header {
+        height: 48px;
+        margin-bottom: 15px;
+        .wrapper {
+            width: 95%;
+            margin: 0 auto;
+            line-height: 48px;
+            position: relative;
+            z-index: 101;
+            .site-logo{
+                float: left;
+                width: 22px;
+                height: 22px;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 8px;
+                margin-bottom: 5px;
+            }
+            .brand {
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            .menu{
+                display: inline-block;
+                position: absolute;
+                z-index: -102;
+                right: 0;
+                top:10px;
+                padding: 5px 10px;
+                background: rgba(28, 28, 31, 0.6);
+                border: 1px solid #333;
+                border-radius: 10px;
+                color: #fff;
+                font-size: 17px;
+                -webkit-transition: 0.4s ease;
+                transition: 0.4s ease;
+                &:hover{
+                    background-color: #000000;
+                }
+            }
+            >.active{
+                background: rgba(28, 28, 31, 0.9);
+                border-radius: 10px;
+                color: #fff;
+            }
+            .nav-show{
+                visibility: visible;
+                transform: scale(1);
+                opacity: 1;
+            }
+            nav {
+                position: absolute;
+                z-index: 100;
+                right:0;
+                top:47px;
+                text-align: center;
+
+                visibility: hidden;
+                transform-origin: 100% 0%;
+                transform: scale(0.1);
+                opacity: 0;
+                transition: 0.2s cubic-bezier(0.5, 0.1, 0.51, 1.38);
+                ul {
+                    background: rgba(235, 235, 235, 0.9);
+                    border-radius: 10px;
+                    box-shadow: 0px 3px 4px 1px rgba(0,0,0,0.5);
+                    li {
+                        font-size: 14px;
+                        display: block;
+                        border-radius: 10px;
+                        a {
+                            display: block;
+                            padding: 0 10px;
+                            height: 40px;
+                            border-radius: 10px;
+                            line-height: 40px;
+                        }
+                  
+                        >.active {
+                            color: rgb(0, 47, 255);
+                            border-radius: 5px;
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

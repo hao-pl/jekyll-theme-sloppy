@@ -1,0 +1,174 @@
+body,
+html,
+div,
+header,
+footer,
+nav,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;
+    color: #333;
+    background-color: #e6e6e6;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+hr {
+    border: 1px solid rgb(226, 227, 230);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+///////////
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 22px;
+    border-bottom: 1px solid #eee;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h6 {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1,h2,h3,h4{
+    font-weight: bold;
+}
+blockquote {
+
+    color: #000000;
+    font-family: STKaiti,KaiTi;
+    box-shadow: 0 0px 2px 1px rgb(0, 0, 0);
+    padding-left: 10px;
+    background-color: #ebebf0;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    text-align: justify;
+    margin: 0 0 5px;
+    line-height: 1.4;
+    font-weight: normal;
+    p:last-of-type{
+        margin: 0;
+    }
+}
+
+
+
+table {
+    display: table;
+    margin: auto;
+    border-collapse: separate;
+    max-width: 100%;
+    margin-bottom: 5px;
+ 
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+    th,
+    td {
+
+        min-width: 120px;
+        padding-top: 0px;
+        padding-right: 3px;
+        padding-bottom: 0px;
+        padding-left: 3px;
+        background-color: #ffffff;
+        border: 1px solid #000000;
+
+        border-radius: 4px;
+
+    }
+
+    :hover{
+        background-color: #b8c6ec;
+    }
+    th {
+        text-align: center !important;
+        background: #e6e6e6;
+    }
+}
+ 
+
+p {
+    text-align: justify;
+    margin: 0 0 5px;
+}
+
+
+ul,
+ol {
+    font-family:    -apple-system, "Noto Sans", 
+                    "Helvetica Neue", Helvetica, 
+                    "Nimbus Sans L", Arial, 
+                    "Liberation Sans", "PingFang SC", 
+                    "Hiragino Sans GB", "Noto Sans CJK SC", 
+                    "Source Han Sans SC", "Source Han Sans CN", 
+                    "Microsoft YaHei", "Wenquanyi Micro Hei", 
+                    "WenQuanYi Zen Hei",  "WenQuanYi Zen Hei Sharp", 
+                    sans-serif;
+    font-weight: normal;
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}

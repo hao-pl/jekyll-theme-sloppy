@@ -1,0 +1,50 @@
+---
+layout: default
+permalink: /collect/
+title: 收藏
+---
+
+
+<div class="page clearfix">
+    <div class="left">
+        {% for item in site.data.collect.collections %}
+                   
+        <h2><i class="fa fa-{{item.icon}}" ></i>{{ item.title }}</h2>
+        <ul class = "menu-list">
+            {% for entry in item.sub-page %}
+            <li><a href="{{ entry.url }}"><i class="fa fa-{{entry.icon}}" ></i>{{ entry.page }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    </div>
+
+    <button class="anchor"><i class="fa fa-anchor"></i></button>
+    <div class="right">
+        <div class="wrap">
+  <!-- Content -->
+            <div class="side content">
+                <div class="title"><i class="fa fa-archive" aria-hidden="true"></i>收藏</div>
+                <ul id="content-side" class="content-ul">
+                    {% for item in site.data.collect.collections %}
+                   
+                    <input type="checkbox" id="{{ item.title }}" style="display: none; ">
+
+                    <label for="{{ item.title }}"><i class="fa fa-{{item.icon}}" ></i>{{ item.title }}</label>
+                    <ul class = "menu-list">
+                        {% for entry in item.sub-page %}
+                          <li><a href="{{ entry.url }}"><i class="fa fa-{{entry.icon}}" ></i>{{ entry.page }}</a></li>
+                        {% endfor %}
+                    </ul>
+                    {% endfor %}
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script>
+    {%- include javascript/pageContent.js -%}
+</script>
+
